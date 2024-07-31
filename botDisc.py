@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 intents = discord.Intents.default()
 intents.message_content = True
 intents.members = True # se necessário
-intents.presences = True # se necessário
+intents.presences = True # se necessário será mesmo?
 
 # Configuração do bot
 bot = commands.Bot(command_prefix='!', intents=intents)
